@@ -39,12 +39,12 @@ class Config(object):
     # --- Admins ---
     ADMIN = [
         int(admin) if id_pattern.search(admin) else admin
-        for admin in os.environ.get('ADMIN', '841851780').split()
+        for admin in os.environ.get('ADMIN', '6891095964').split()
     ]
 
     # --- Channels & Logs ---
-    FORCE_SUB = os.environ.get("FORCE_SUB", "NeonFiles")
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001889915480"))
+    FORCE_SUB = os.environ.get("FORCE_SUB", "TuneBots")
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1003591916255"))
 
     # --- Webhook / Deployment Config ---
     WEBHOOK = bool(os.environ.get("WEBHOOK", True))
