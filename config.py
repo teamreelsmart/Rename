@@ -53,7 +53,7 @@ class Config(object):
     SCHEDULE_RESTART = False  # Set True for 24h scheduled restart
     KEEP_ALIVE_URL = os.environ.get(
         "KEEP_ALIVE_URL",
-        "https://rename2gb-bot-82je.onrender.com/"
+        "https://rename-xybs.onrender.com/"
     )
 
 
